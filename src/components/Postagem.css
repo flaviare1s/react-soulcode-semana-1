@@ -1,0 +1,25 @@
+.corpo-postagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  width: 300px;
+  margin: 8px auto
+}
+
+.titulo-postagem {
+  color: darkblue;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.descricao-postagem {
+  color: blue;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
