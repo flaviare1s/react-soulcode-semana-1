@@ -16,6 +16,6 @@ export default Postagem
 
 Postagem.propTypes = {
   tituloPostagem: PropTypes.string.isRequired,
-  descricao: PropTypes.string.isRequired,
+  descricao: PropTypes.string,
   linkImagem: PropTypes.string.isRequired,
 }
