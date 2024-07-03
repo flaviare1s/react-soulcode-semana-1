@@ -1,16 +1,21 @@
+import PropTypes from 'prop-types'
 import './Postagem.css'
 
-const Postagem = () => {
-  const tituloPostagem = 'Título da Postagem'
-  const linkImagem = 'https://picsum.photos/200'
+const Postagem = ({ tituloPostagem, descricao, linkImagem }) => {
 
   return (
     <section className='corpo-postagem'>
       <h2 className='titulo-postagem'>{tituloPostagem}</h2>
-      <p className="descricao-postagem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, perferendis.</p>
+      <p className="descricao-postagem">{descricao}</p>
       <img className='imagem-postagem' src={linkImagem} alt="Imagem da postagem" />
     </section>
   )
 }
 
 export default Postagem
+
+Postagem.propTypes = {
+  tituloPostagem: PropTypes.string.isRequired,
+  descricao: PropTypes.string.isRequired,
+  linkImagem: PropTypes.string.isRequired,
+}
