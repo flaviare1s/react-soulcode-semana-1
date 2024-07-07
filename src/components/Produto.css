@@ -6,11 +6,16 @@
   margin-top: 20px;
 }
 
-.preco-unitario {
+.preco-cortado {
   font-size: 2rem;
   text-decoration: line-through;
   color: grey;
   padding: 10px 0;
+}
+
+.preco-unitario {
+  font-size: 3rem;
+  margin-top: 20px;
 }
 
 .preco-desconto {
