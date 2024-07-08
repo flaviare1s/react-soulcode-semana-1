@@ -27,6 +27,8 @@ function App() {
   return (
     <main>
       <Contador />
+      <Contador valorInicial={1} />
+      <Contador valorInicial={2} />
       {/* <Eventos /> */}
       {/* <Navbar logado={logado} nomeUsuario="Batata" onLogin={handleLogin} onLogout={handleLogout}/>
       <section className="cards-container">
