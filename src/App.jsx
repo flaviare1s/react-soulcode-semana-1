@@ -13,6 +13,8 @@ import './App.css'
 import { useState } from 'react'
 import Abas from './components/Abas'
 import CalculadoraIMC from './components/CalculadoraIMC'
+import Post from './components/Post'
+import ConversorTemperatura from './components/ConversorTemperatura'
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
     <main>
       <Abas />
       <CalculadoraIMC />
+      <Post titulo='Post 1' descricao='Esse é um post fictício para um exercício de React.' />
+      <ConversorTemperatura />
       {/* <Contador />
       <Contador valorInicial={1} />
       <Contador valorInicial={2} /> */}
