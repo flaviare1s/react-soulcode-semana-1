@@ -1,0 +1,24 @@
+.contador {
+  display: flex;
+  gap: 20px;
+}
+
+.contagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contagem p {
+  font-size: 1.5rem;
+  font: bold;
+}
+
+.par {
+  color: orange;
+}
+
+.impar {
+  color: green;
+}

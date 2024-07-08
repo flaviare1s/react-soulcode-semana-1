@@ -1,29 +1,34 @@
 // jsx => JavaScript Extended
 // Vai permitir escrever código HTML dentro do JS
-import './App.css'
-import Blog from "./components/Blog"
-import Navbar from './components/Navbar'
-import Rodape from "./components/Rodape"
-import Produto from './components/Produto'
-import CardAluno from './components/CardAluno'
+// import Blog from "./components/Blog"
+// import Navbar from './components/Navbar'
+// import Rodape from "./components/Rodape"
+// import Produto from './components/Produto'
+// import Eventos from './components/Eventos'
+// import CardAluno from './components/CardAluno'
+import Contador from './components/Contador'
 
+
+import './App.css'
 import { useState } from 'react'
 
 
 function App() {
-  const [logado, setLogado] = useState(false)
+  // const [logado, setLogado] = useState(false)
 
-  const handleLogin = () => {
-    setLogado(true)
-  }
+  // const handleLogin = () => {
+  //   setLogado(true)
+  // }
 
-  const handleLogout = () => {
-    setLogado(false)
-  }
+  // const handleLogout = () => {
+  //   setLogado(false)
+  // }
 
   return (
     <main>
-      <Navbar logado={logado} nomeUsuario="Batata" onLogin={handleLogin} onLogout={handleLogout}/>
+      <Contador />
+      {/* <Eventos /> */}
+      {/* <Navbar logado={logado} nomeUsuario="Batata" onLogin={handleLogin} onLogout={handleLogout}/>
       <section className="cards-container">
         <CardAluno nomeAluno='Maria' serie='5° ano' media='9.5' />
         <CardAluno nomeAluno='João' serie='4° ano' media='8.5' />
@@ -32,7 +37,7 @@ function App() {
       </section>
       <Produto nome='Ps5 Console Slim Bundle Ratchet Clank and Returnal Cor Branco' precoUnitario={4399.00} desconto={14} />
       <Blog />
-      <Rodape />
+      <Rodape /> */}
     </main>
   )
 }
