@@ -19,7 +19,7 @@ const ConversorTemperatura = () => {
       />
       <br />
       <button onClick={handleClick}>Converter</button>
-      <p>Temperatura em Fahrenheit: {fahrenheit}</p>
+      <p>Temperatura em Fahrenheit: {fahrenheit.toFixed()}ºF</p>
     </section>
   )
 }
