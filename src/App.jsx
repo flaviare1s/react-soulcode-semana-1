@@ -6,11 +6,13 @@
 // import Produto from './components/Produto'
 // import Eventos from './components/Eventos'
 // import CardAluno from './components/CardAluno'
-import Contador from './components/Contador'
+// import Contador from './components/Contador'
 
 
 import './App.css'
 import { useState } from 'react'
+import Abas from './components/Abas'
+import CalculadoraIMC from './components/CalculadoraIMC'
 
 
 function App() {
@@ -26,9 +28,11 @@ function App() {
 
   return (
     <main>
-      <Contador />
+      <Abas />
+      <CalculadoraIMC />
+      {/* <Contador />
       <Contador valorInicial={1} />
-      <Contador valorInicial={2} />
+      <Contador valorInicial={2} /> */}
       {/* <Eventos /> */}
       {/* <Navbar logado={logado} nomeUsuario="Batata" onLogin={handleLogin} onLogout={handleLogout}/>
       <section className="cards-container">
