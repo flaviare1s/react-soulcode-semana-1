@@ -1,8 +1,5 @@
-# React + Vite
+# Bootcamp React + Node da SoulCode Academy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse repositório foi criado para as aulas da primeira semana do Bootcamp de React + Node da SoulCode Academy.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Assunto da semana: HTML
